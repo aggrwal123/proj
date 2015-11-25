@@ -5,4 +5,4 @@ Popular Names by Birth Year: User can enter a year and choice like Top 10, Top 2
 Popularity of a name that has changed over the years: Given a name and a year it should show (preferably in a graphical format) how popularity has changed starting from that particular year till 2013. For example if a user inputs: Brendon and a year 2000 it should show the popularity of the name starting from 2000 to 2013. Again choice of Male and Female should be there because some names can be both male and female.
 
 
-Description about question:-I have done qusestion 2 as my project which is done in c# language.This project will run on VISUAL STUDIO 2015 version.It is windows based.I have used all data which is given in question as a link.
+Description about question:-I have done qusestion 2 as my project which is done in c# language.This project will run on VISUAL STUDIO 2015 version.
