@@ -84,8 +84,11 @@ namespace BabyNames
                             int c = int.Parse(strar[2].Replace("\"", "").Replace("=", ""));
                             if (n.ToLower() == nvar.ToLower())
                             {
-                                years.Add(yr);
-                                count.Add(c);
+                                if (!years.Contains(yr))
+                                {
+                                    years.Add(yr);
+                                    count.Add(c);
+                                }
                             }
                         }
                         line++;
@@ -116,8 +119,10 @@ namespace BabyNames
                 {
                     // Add series.
                     Series series = this.chart1.Series.Add(seriesArray[i]);
+                    
                     series.AxisLabel = "Years.......>>>>>>";
                     // Add point.
+                    
                     series.Points.Add(pointsArray[i]);
                     
                         
