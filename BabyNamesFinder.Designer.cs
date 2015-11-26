@@ -10,9 +10,7 @@ namespace BabyNames
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, 
-
-false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -53,9 +51,7 @@ false.</param>
             // 
             // cboGender
             // 
-            this.cboGender.DropDownStyle = 
-
-System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboGender.FormattingEnabled = true;
             this.cboGender.Items.AddRange(new object[] {
             "Male",
@@ -68,9 +64,7 @@ System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // cboYear
             // 
-            this.cboYear.DropDownStyle = 
-
-System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboYear.FormattingEnabled = true;
             this.cboYear.Location = new System.Drawing.Point(257, 69);
             this.cboYear.Name = "cboYear";
@@ -88,9 +82,7 @@ System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // cboType
             // 
-            this.cboType.DropDownStyle = 
-
-System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboType.FormattingEnabled = true;
             this.cboType.Items.AddRange(new object[] {
             "10",
@@ -122,9 +114,7 @@ System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, 
-
-System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(46, 136);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(284, 44);
@@ -143,9 +133,7 @@ System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, 
-
-System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(336, 136);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(284, 44);
